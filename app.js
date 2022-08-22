@@ -9,7 +9,6 @@ const oddishOrEvenish = (number) => {
     }
     return 'Even';
   };
-  
   const DoSeparatedNumber = (number) => {
     let separatedArr = [];
     const separatedNumber = number.toString().split('');
@@ -17,8 +16,7 @@ const oddishOrEvenish = (number) => {
       separatedArr.push(item);
     });
     return separatedArr;
-  };
-  
+  };  
 console.log(oddishOrEvenish(0));
 console.log(oddishOrEvenish(456));
 console.log(oddishOrEvenish(353));
